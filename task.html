@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+     <style>
+        ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+            background-color:white;
+            position: fixed;
+            width: 100%;
+            top: 0px;
+            left: 0px;
+            text-indent: 5;
+            letter-spacing: 2px;
+        }
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:gray;
+}
+form input{
+    display: block;
+    padding: 20px 20px;
+    width: 80%;
+    margin-bottom: 15px;
+    font-size: medium;
+}
+form button{
+    color: white;
+    background-color: black;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+ form button:hover{
+    color: black;
+    background-color: gray; 
+    font-size: medium;
+}
+form p{
+   font-size: large;
+   font-style: oblique;
+   
+}
+h3{
+    color: white;
+    position: absolute;
+    left: 40%;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 42%;
+    letter-spacing: 3px;
+}
+.container{
+  max-width: 1440px;
+  margin: auto;
+  background: white;
+  overflow: auto;
+}
+.gallery{
+  margin: 5px;
+  float: left;
+  width: 350px;
+}
+.gallery img{
+  width: 100%;
+  height: auto;
+}
+
+.desc{
+  padding: 40px;
+  text-align:left;
+  color: white;
+  background: black;
+}
+.button1{
+    background-color: rgb(195, 191, 191);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: medium;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+     </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li style="float: left;"><a href="#BR Architect">BR Architect</a></li>
+            <li><a href="#Contact">contact</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <img src="image/architect.jpg" alt="BR Architect" width="100%" height="500px">
+        <h3><b>BR</b>Architects</h3>
+    </header>
+
+    <form action="Projects">
+      <h1>Projects</h1>
+  <div class="container">
+    <div class="gallery">
+      <img src="image/house2 (1).jpg">
+      <div class="decs">summer house</div>
+    </div>
+    <div class="gallery">
+      <img src="image/house2.jpg">
+      <div class="decs"> brick house</div>
+    </div>
+    <div class="gallery">
+      <img src="image/house3 (1).jpg">
+      <div class="decs">renovated</div>
+    </div>
+    <div class="gallery">
+      <img src="image/house3.jpg">
+      <div class="decs">barn house</div>
+    </div>
+    <div class="gallery">
+      <img src="image/house4 (1).jpg">
+      <div class="decs">summer house</div>
+    </div>
+    <div class="gallery">
+      <img src="image/house4.jpg">
+      <div class="decs">brick house</div>
+    </div>
+    <div class="gallery">
+      <img src="image/house5 (1).jpg">
+      <div class="decs">renovated</div>
+    </div>
+    <div class="gallery">
+      <img src="image/house5.jpg">
+      <div class="decs">barn house</div>
+    </div>
+  </div>
+
+    <form action="about">
+        <h2>About</h2>
+        <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+           dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+           commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
+           id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, 
+           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</P>
+    </form>
+
+    <div class="container">
+      <div class="gallery">
+        <img src="image/team1.jpg">
+        <div class="decs">Jane Doe</div>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <p><button class="button1">contact</button></p>
+      </div>
+
+        <div class="gallery">
+          <img src="image/team2.jpg">
+          <div class="decs">John Doe</div>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="button1">contact</button></p>
+        </div>
+
+          <div class="gallery">
+            <img src="image/team3.jpg">
+            <div class="decs">Mike ross</div>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <p><button class="button1">contact</button></p>
+          </div>
+          
+            <div class="gallery">
+              <img src="image/team4.jpg">
+              <div class="decs">Dan Star</div>
+              <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+              <p><button class="button1">contact</button></p>
+            </div>
+    </div>
+
+      <form action="contact">
+        <h1>CONTACT</h1>
+        <p>Lets get in touch and talk about your next project.</p>
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Email">
+        <input type="text" placeholder="Subject">
+        <input type="text" placeholder="Comment">
+        <button>SEND MESSAGE</button>
+      </FOrm>
+      <img src="image/map.jpg" alt="photo14">
+</body>
+</html>
